@@ -1,0 +1,34 @@
+.article h1, h2, h3
+{
+font-family: "Arial", Times, sans-serif;
+
+}
+.article p
+{
+    font-family:"Times New Roman", "Times New Roman", sans-serif;
+    font-size:1.2em;
+
+}
+.paragraaf1 h1{
+    font-size: 1.8em;
+}
+
+.paragraaf2 h2{
+    font-size:1.5em;
+}
+
+.paragraaf3 h3 {
+    font-size: 1.4em;
+}
+
+.paragraaf1 {
+    color: darkred;
+}
+
+.paragraaf2 {
+   color: darkgreen;
+}
+
+.paragraaf3 {
+    color:blue;
+}
