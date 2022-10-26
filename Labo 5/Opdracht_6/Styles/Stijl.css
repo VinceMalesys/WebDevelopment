@@ -21,14 +21,14 @@ font-family: "Arial", Times, sans-serif;
     font-size: 1.4em;
 }
 
-.paragraaf1 {
+p.paragraaf1 {
     color: darkred;
 }
 
-.paragraaf2 {
+.paragraaf2 p{
    color: darkgreen;
 }
 
-.paragraaf3 {
+.paragraaf3 p{
     color:blue;
 }
