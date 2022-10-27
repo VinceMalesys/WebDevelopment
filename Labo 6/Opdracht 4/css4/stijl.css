@@ -1,0 +1,27 @@
+body{
+  font-family: Verdana, sans-serif;
+    font-size:1.1em;
+    background-color: silver;
+    color:darkblue;
+}
+.hoofding1{
+    background-color: red;
+    font-variant: all-small-caps;
+    width: fit-content;
+}
+h3{
+    font-variant: all-petite-caps;
+}
+/*Omdat de verhouding anders abstract uitkomt*/
+a:hover{
+border-collapse: collapse;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+}
+.stippeltjesrand{
+    border: black;
+    border-style: dotted;
+    border-width: 1px;
+    width:fit-content;
+}

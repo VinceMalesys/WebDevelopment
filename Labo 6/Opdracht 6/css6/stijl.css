@@ -1,0 +1,16 @@
+*{
+    padding:0;
+    margin:0;
+}
+.checklist li{
+    margin-right:10px;
+    margin-top:10px;
+    list-style-type: "\2610";
+}
+li.checked{
+    list-style-type:"\2611";
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
