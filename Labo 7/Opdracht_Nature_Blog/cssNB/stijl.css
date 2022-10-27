@@ -1,0 +1,90 @@
+body{
+    width:1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.kop{
+    color: white;
+    font-size: xxx-large;
+    background-image: url("../image/header.jpg");
+    padding-bottom: 30px;
+
+}
+.kop h1{
+    margin: 10px;
+}
+.navigation{
+    background-color: #343434;
+    color: black;
+    padding: 8px;
+}
+.navigation a{
+    color:lightgreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+.deel1{
+    background-color: lightgray;
+    color: #343434;
+    padding-left:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.deel1 h1{
+    font-size:xxx-large;
+    padding-top: 25px;
+    padding-bottom:25px;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-decoration: underline;
+}
+.deel2{
+    background-color: lightgray;
+    color: #343434;
+    padding-left:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.deel2 h1{
+    font-size:xxx-large;
+    padding-top: 25px;
+    padding-bottom:25px;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-decoration: underline;
+}
+.deel3{
+    background-color: lightgray;
+    color: #343434;
+    padding-left:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.deel3 h1{
+    font-size:xxx-large;
+    padding-top: 25px;
+    padding-bottom:25px;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-decoration: underline;
+}
+.deel4{
+    background-color: lightgray;
+    color: #343434;
+    padding-left:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.deel4 h1{
+    font-size:xxx-large;
+    padding-top: 25px;
+    padding-bottom:25px;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-decoration: underline;
+}
+.footnote{
+    font-size:small;
+    margin-top: 5px;
+
+}

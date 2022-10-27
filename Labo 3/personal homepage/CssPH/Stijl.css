@@ -1,0 +1,47 @@
+body{
+    font-family: Helvetica,sans-serif;
+    background-color: darkkhaki;
+    text-align: center;
+}
+.hoofding {
+    color:mediumpurple;
+    font-size: xx-large;
+    padding-top: 55px;
+    background-image: url("../images/Banner.jpeg");
+    background-position: top 120%;
+    height: auto;
+    max-width: 100%;
+}
+.hoofding h2{
+    margin: 10px;
+}
+.personal{
+    background-color: #343434;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.personal h3{
+    font-size: x-large;
+    padding-left:40px;
+}
+img{
+    border: 8px solid #343434;
+    border-radius: 5px;
+    width: 10%;
+}
+.likes{
+    background: #343434;
+    color: white;
+}
+table{
+    border:solid;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+table td,th{
+    border:solid 3px;
+    padding: 5px 10px;
+}
