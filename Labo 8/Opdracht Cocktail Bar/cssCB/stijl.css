@@ -1,0 +1,130 @@
+body{
+    font-size: 1.2em;
+    font-family: Verdana,Helvetica, Arial, sans-serif;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto
+
+}
+.specials{
+   float:right;
+    width:30%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: #007e7e solid 2px;
+
+}
+
+.hoofdtekst{
+    float:left;
+    width: 70%;
+}
+ h1{
+    font-size: 150%;
+}
+ h2{
+    font-size: 130%;
+
+}
+.hoofdtekst h1, .hoofdtekst h2{
+    color:#007e7e;
+}
+.specials p:nth-of-type(2){
+    color:red;
+}
+.specials p:nth-of-type(4){
+    color:deepskyblue;
+}
+.specials p:nth-of-type(6){
+    color:darkolivegreen;
+}
+.specials p:nth-of-type(7){
+    color:orangered;
+}
+.specials a{
+    color:crimson;
+}
+.specials a:hover{
+    background-color: saddlebrown;
+}
+.specials h1{
+    color: #343434;
+    background-image: url("../images/cocktail.gif");
+    background-repeat: repeat;
+    padding-top: 30px;
+    margin-top: 0;
+}
+.specials h2:nth-of-type(1){
+    color:darkred;
+}
+.specials h2:nth-of-type(2){
+    color: darkblue;
+}
+.specials h2:nth-of-type(3){
+    color: saddlebrown;
+}
+
+
+
+#guarantee{
+    border: 3px white dotted;
+    color: #444444;
+    background-color: #a7cece;
+    /*padding:20px  20px 20px 75px;
+    background-size: 75px;
+    box-sizing: content-box ;
+        background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    */
+    padding:20px;
+    margin:30px;
+}
+/*#guarantee:before {
+    font-size: 82px;
+    width:50px;
+    height: 77px;
+    float: left;
+    color: transparent;
+    content: '';
+
+
+    background-image: url("../images/background.gif");
+    background-size: 60px;
+    background-repeat: no-repeat;
+
+
+}*/
+#guarantee::before{
+    content: url("../images/background.gif");
+    position: relative;
+    top:-20px;
+    left:-20px;
+    float: left;
+    width: 60px;
+    height: 100%;
+
+}
+.hoofdtekst a{
+    color: #444444;
+}
+li:first-of-type{
+    font-style: oblique;
+
+}
+#vet{
+    font-style: normal;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+}
+footer{
+     display: inline-block;
+     width: 95%;
+     text-align: center;
+     font-size:0.6em;
+ }

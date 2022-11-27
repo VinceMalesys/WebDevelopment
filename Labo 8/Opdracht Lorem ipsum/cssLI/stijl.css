@@ -1,0 +1,25 @@
+.eerste{
+    float:left;
+
+}
+
+.tweede{
+    float:right;
+
+
+}
+
+div {
+    width:calc(50% - 20px);
+    box-sizing: border-box;
+    border: 1px black solid;
+    padding:10px;
+    margin:10px;
+
+}
+
+
+header{
+    text-align: center;
+}
+
