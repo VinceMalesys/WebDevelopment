@@ -21,14 +21,14 @@ body{
     float:left;
     width: 70%;
 }
- h1{
+ h2{
     font-size: 150%;
 }
- h2{
+ h3{
     font-size: 130%;
 
 }
-.hoofdtekst h1, .hoofdtekst h2{
+.hoofdtekst h2, .hoofdtekst h3{
     color:#007e7e;
 }
 .specials p:nth-of-type(2){
@@ -49,20 +49,20 @@ body{
 .specials a:hover{
     background-color: saddlebrown;
 }
-.specials h1{
+.specials h2{
     color: #343434;
     background-image: url("../images/cocktail.gif");
     background-repeat: repeat;
     padding-top: 30px;
     margin-top: 0;
 }
-.specials h2:nth-of-type(1){
+.specials h3:nth-of-type(1){
     color:darkred;
 }
-.specials h2:nth-of-type(2){
+.specials h3:nth-of-type(2){
     color: darkblue;
 }
-.specials h2:nth-of-type(3){
+.specials h3:nth-of-type(3){
     color: saddlebrown;
 }
 
