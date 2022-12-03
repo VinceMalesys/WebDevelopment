@@ -19,6 +19,7 @@ header h1{
     font-size: 300%;
 }
 header h2{
+    margin-top: 50px;
     font-size: 240%;
 
 }
@@ -40,7 +41,7 @@ header h2{
 
     }
 }
-.geheel{
+main{
     background-color: white;
 }
 span{
@@ -111,6 +112,7 @@ span{
 }
 .bottom div:first-of-type{
     margin-left: 120px;
+    margin-right: 120px;
 }
 .bottom ul{
     margin-bottom: 0;
