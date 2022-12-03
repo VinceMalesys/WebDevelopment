@@ -1,0 +1,75 @@
+Assignment Airbus
+-----------------
+
+You are given a base html page that already contains the content, and a folder with the images.
+
+Create a webpage as described below and illustrated in the given screenshot.
+
+You will have to edit the given html page and add a css file.
+
+Things to remember :
+
+ - Wherever possible, you have to replace the elements in the given html with their semantic counterparts
+
+ - Write your selectors as generic as possible, so avoid id attributes if they are not absolutely necessary. If you need class attributes, give them semantic names.
+
+
+Description of the webpage
+--------------------------
+
+The actual content of the page is 960px wide and centered in the browser window
+
+The background is from the file 'pagebackground.png' which unfortuantely has only 956px of space between the left and right gradients
+
+All text on the page uses Arial font with fallbacks Helvetica and san-serif if Arial is not available
+
+"top" area
+	is 200px high
+	background image  is 'bgsky3.jpg'
+	text is centered
+	the airplance is from 'tekklein.png'
+	make sure the airplane is IN FRONT OF the text
+	the right side of the airplane is 90 pixel from the edge, the bottom is 60px from the edge
+	the color of the text is 'darkblue'
+	the upper title is 300% tall, bold and italics
+	the lower title is 240% tall and bold
+
+"news" area (block on the right side)
+	this area is 250px wide
+	background color is #dddddd, border is 1px thick and has color #999999
+	regular text
+		color is #666666, size is 90% en at the side there is 10px empty space
+	the headings
+		text color is 'white', background 'blue', text is 120% tall and centered
+	
+"main" area (block on the left side)
+	this area is 700px wide
+	(so there is 10px of empty space between the main part and the news part)
+	
+"introduction" area (with the airbus logo, is inside the main area)
+	white background, black text, text is justified
+	the text is 20px from the top and bottom edges, 30px from the edge at the right
+	to the left and right side of the logo is 20px of empty space (so the distance between the logo and text is 20px)
+	the logo's top is 20px from the top edge (same as text)
+	the blue text has color 'blue' and is bold and italics
+	
+"gallery" area (left side, inside the main area)
+	de images are 180px wide and 180px high
+	the background color between the images is #999999
+	each image is inside a 'picture frame'
+		the white space is 10px thick 
+		the surrounding border is 1px thick and dotted (white/#999999)
+	the distance between the picture frames is 20px
+	the distance to the edge is also 20px, but at the right side one pixel more or less is allowed ;)
+	
+"bottom" area
+	background color is #666666
+	text color is white, line height is 2ems
+	each 'block' has 120px of empty space at its left side
+	when the mouse is over a hyperlink, it will be shown in red temporarily
+
+"copyright" area (at the bottom)
+	centered, black text on white background
+	
+
+	

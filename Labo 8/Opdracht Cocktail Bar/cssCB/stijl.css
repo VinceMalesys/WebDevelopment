@@ -96,6 +96,7 @@ body{
 
 
 }*/
+
 #guarantee::before{
     content: url("../images/background.gif");
     position: relative;
@@ -106,6 +107,11 @@ body{
     height: 100%;
 
 }
+/*
+#guarantee::before{
+    background: url("../images/background.gif") top left no-repeat;
+
+}*/
 .hoofdtekst a{
     color: #444444;
 }

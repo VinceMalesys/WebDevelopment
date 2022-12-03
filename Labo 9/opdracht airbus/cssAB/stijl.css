@@ -1,0 +1,124 @@
+body{
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto 0 auto;
+
+    background: url("../fotos/pagebackground.png") center;
+    background-size: 920px;
+
+}
+header{
+    background: url("../fotos/bgsky3.jpg");
+    margin-top: 0;
+    height: 200px;
+    text-align: center;
+    color: darkblue;
+}
+header h1{
+    margin-top: 0;
+    font-size: 300%;
+}
+header h2{
+    font-size: 240%;
+
+}
+@media screen and (min-width: 960px){
+    header img{
+        position: absolute ;
+        top: calc(200px - 106px - 60px);
+        left: calc(((100% - 960px)/2) + (960px - 309px)) ;
+
+
+    }
+}
+@media screen and (max-width: 959px){
+    header img{
+        position: absolute ;
+        top: calc(200px - 106px - 60px);
+        left: calc(960px - 309px) ;
+
+
+    }
+}
+.geheel{
+    background-color: white;
+}
+span{
+    color:blue;
+    font-weight: bold;
+}
+.columnRight{
+    float:right;
+    width: 250px;
+    background-color: #dddddd;
+    border: 1px #999999 solid;
+    margin-left: 10px;
+}
+.columnRight p{
+    font-size: 90%;
+    padding: 0 10px 0 10px;
+    color: #666666;
+}
+.columnRight h3{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size: 120%;
+}
+.logo{
+   float:left;
+    padding: 20px 0 0 20px;
+}
+.introduction p{
+    margin: 0;
+    padding: 20px 20px 20px 140px;
+    text-align: justify;
+}
+.introduction{
+    width:calc(960px - 250px);
+}
+.gallery{
+    width: 700px;
+    background-color: #999999;
+}
+.gallery img{
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    background-color: white;
+    border: 1px dashed #999999;
+    margin: 10px;
+}
+.gallery a:first-of-type>img, .gallery a:nth-of-type(4)>img, .gallery a:nth-of-type(7)>img {
+    margin-left: 20px;
+}
+.gallery a:nth-of-type(1)>img,.gallery a:nth-of-type(2)>img,.gallery a:nth-of-type(3)>img{
+    margin-top: 20px;
+}
+.gallery a:nth-of-type(7)>img,.gallery a:nth-of-type(8)>img,.gallery a:nth-of-type(9)>img{
+    margin-bottom: 20px;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    color:white;
+    background-color: #666666;
+
+}
+.bottom li{
+    width: fit-content;
+    margin-right: 0;
+}
+.bottom div:first-of-type{
+    margin-left: 120px;
+}
+.bottom ul{
+    margin-bottom: 0;
+}
+.bottom a{
+    color: white;
+}
+footer p{
+    margin-bottom: 0;
+    text-align: center;
+}

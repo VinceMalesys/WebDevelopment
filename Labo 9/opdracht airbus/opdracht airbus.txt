@@ -1,0 +1,74 @@
+Opdracht Airbus
+---------------
+
+Gegeven is een basis html pagina met de eigenlijk inhoud en een folder met de gebruikte afbeeldingen.
+
+Maak een webpagina zoals hieronder beschreven en geillustreerd door de bijbehorende screenshot.
+
+Je zult de gegeven html pagina moeten aanpassen en een css bestand toevoegen.
+
+Aandachtspunten :
+
+ - Waar mogelijk, moeten in het html elementen vervangen worden door semantische tegenhangers.
+
+ - Schrijf selectors zo algemeen mogelijk, dus geen id attributen & id selectors als dit niet echt nodig is. Als je class attributen nodig hebt, geef deze dan een semantische naam.
+
+Beschrijving van de webpagina
+-----------------------------
+
+de eigenlijke inhoud van de pagina is 960px breed en gecentreerd in het browservenster
+
+de achtergrond komt uit bestand 'pagebackground.png' en heeft tussen de twee gradients helaas slechts 956px 'vrije' ruimte
+
+alle tekst op de pagina gebruikt font Arial met reserves Helvetica en san-serif mocht Arial niet beschikbaar zijn
+
+"top" gebied
+	is 200px hoog
+	de achtergrond is 'bgsky3.jpg'
+	tekst is gecentreerd
+	het vliegtuig komt uit 'tekklein.png'
+	let erop dat het vliegtuig VOOR de tekst komt
+	de rechterkant van het vliegtuig staat 90 pixels van de rand vandaan, de onderkant staat 60px van de rand
+	de kleur van de letters is 'darkblue'
+	De bovenste titel is 300% groot, dik- en schuingedrukt
+	De onderste titel is 240% groot en dikgedrukt.
+
+"news" gebied (rechter blok)
+	dit gebied is 250px breed
+	achtergrondkleur is #dddddd, border is 1px breed en heeft kleur #999999
+	gewone tekst
+		kleur is #666666, grootte is 90% en aan de zijkanten is er 10px vrije ruimte
+	de hoofdingen
+		tekstkleur 'white', achtergrond 'blue', de tekst is 120% groot en gecentreerd
+	
+"main" gebied (linker blok)
+	dit gebied is 700px breed
+	(er is dus 10px lege ruimte tussen het main gedeelte en het news gedeelte
+	
+"introduction" gebied (met het airbus logo, zit in het main gedeelte)
+	witte achtergrond, zwarte tekst, tekst is uitgelijnd
+	de tekst staat boven en onder 20px van de rand af, rechts 30px
+	links en rechts van het logo is 20px lege ruimte (de afstand tussen tekst en logo is dus 20px)
+	het logo staat bovenaan 20px van de rand af, net als de tekst
+	de blauwe tekst heeft kleur 'blue' en is dik- en schuingedrukt
+	
+"gallery" gebied (links, zit in het main gedeelte)
+	de foto's zijn 180px op 180px
+	de achtergrondkleur tussen de foto's is #999999
+	elke foto zit in een fotokader
+		een witte ruimte van 10px dik (white)
+		daarrond een border van 1px in stippellijn (white/#999999)
+	tussen de fotokaders onderling is 20px afstand
+	de afstand tot de rand is eveneens 20px, maar aan de rechterkant mag het zonodig een pixeltje meer of minder zijn ;)
+	
+"bottom" gebied
+	achtergrondkleur is #666666
+	tekstkleur is white, lijnhoogte is 2ems
+	de 'blokken' hebben aan hun linkerkant 120px lege ruimte
+	indien de muis over een hyperlink gaat, wordt deze tijdelijk rood
+
+"copyright"	gebied (helemaal onderaan)
+	gecentreerd, zwarte tekst op witte achtergrond
+	
+
+	
