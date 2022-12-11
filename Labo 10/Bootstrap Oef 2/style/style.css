@@ -1,0 +1,9 @@
+div >div {
+    background-color: lightgray;
+    height: 150px;
+}
+div > div:nth-of-type(2n){
+    background-color: darkgray;
+}
+
+

@@ -1,0 +1,125 @@
+body{
+    font-family: Helvetica,sans-serif;
+    text-align: center;
+
+    margin: auto;
+    background: darkkhaki;
+}
+.hoofding {
+    color:white;
+    font-size: xx-large;
+    padding-top: 55px;
+    background-image: url("../images/Banner.jpeg");
+    background-size: cover;
+    max-width: 100%;
+}
+.hoofding h2{
+    margin: 10px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+section{
+    margin:30px;
+}
+
+a{
+    color:red;
+}
+.personal, .hobby, .likes{
+    background-color: wheat;
+    border-radius:10px;
+    border: 2px solid black;
+    text-align: center;
+}
+li{
+     list-style: none;
+ }
+ul{
+    padding:0 5px 0 5px;
+}
+
+img{
+      border: 4px solid #343434;
+      border-radius: 5px;
+      width: 100px;
+  }
+
+.personal h3{
+    font-size: x-large;
+}
+
+.prognose table {
+
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.prognose h3, .vrienden h3{
+    background-color: wheat;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left :auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.prognose td, .prognose th{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: wheat;
+    border:solid black;
+}
+
+.onbekend{
+    background: rgba(200, 0, 0, .5);
+}
+.tabel{
+    font-family: Arial,sans-serif;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+
+}
+
+.tabel td,.tabel th{
+    padding: 5px 10px;
+    border-left: 1px solid saddlebrown;
+}
+
+.tabel td:first-of-type,.tabel th:first-of-type{
+    border:none;
+}
+
+.tabel th{
+    text-align: left;
+    background: saddlebrown;
+    font-size: 13px;
+    font-weight: bold;
+    border-spacing: 0;
+}
+
+.tabel th:first-of-type {
+    border-top-left-radius: 10px;
+}
+
+.tabel th:last-of-type {
+    border-top-right-radius: 10px;
+}
+
+.tabel tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 10px;
+}
+
+.tabel tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 10px;
+}
+
+.tabel .alt td {
+    color: saddlebrown;
+    background:wheat;
+
+}
