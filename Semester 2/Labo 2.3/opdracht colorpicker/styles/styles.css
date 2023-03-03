@@ -1,0 +1,32 @@
+body{
+	font-family: Cochin, sans-serif;
+}
+.colorDemo {
+	width:125px;
+	height:125px;
+	border:1px solid black;
+	border-radius: 5px;
+}
+.main {
+	width:fit-content;
+	display: flex;
+	border: 5px solid rgba(0,0, 0, 0.2);
+
+	border-radius: 5px;
+	padding: 10px;
+}
+.slides{
+	display: flex;
+	flex-direction: column;
+	padding-right: 20px;
+}
+input{
+	padding: 10px 0 10px 0;
+}
+.values{
+	width: 100px;
+
+}
+.slider{
+	background-image: element(003C);
+}
