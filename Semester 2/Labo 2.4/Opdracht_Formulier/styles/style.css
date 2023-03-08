@@ -1,0 +1,11 @@
+form{
+    line-height: 25px;
+}
+p{
+    margin: 5px;
+}
+body{
+    border: solid 1px black;
+    width: 500px;
+    padding: 15px;
+}

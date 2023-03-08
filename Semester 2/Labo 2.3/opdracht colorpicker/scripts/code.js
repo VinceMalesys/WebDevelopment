@@ -1,6 +1,5 @@
 
 const setup = () => {
-	let colorDemos=document.getElementsByClassName("colorDemo");
 	let sliders = document.getElementsByClassName("slider");
 
 
@@ -9,7 +8,7 @@ const setup = () => {
 		sliders[i].addEventListener("input", update);
 	}
 
-	colorDemos[0].style.backgroundColor = 'rgb(' + 100 + ',' + 100 + ',' + 100 + ')';
+	update();
 }
 const update = () => {
 	let colorDemos=document.getElementsByClassName("colorDemo");
@@ -24,7 +23,8 @@ const update = () => {
 
 
 	colorDemos[0].style.backgroundColor = 'rgb(' + value + ',' + value1 + ',' + value2 + ')';
-
+	//colorDemos[0].style.backgroundColor = 'rgb(${red},${green},${blue})';
+	// is iets beter
 }
 
 

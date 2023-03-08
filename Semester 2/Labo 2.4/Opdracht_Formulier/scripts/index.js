@@ -1,7 +1,5 @@
 const setup = () => {
-
-
-
+document.getElementById("fname").focus()
 
 }
 
