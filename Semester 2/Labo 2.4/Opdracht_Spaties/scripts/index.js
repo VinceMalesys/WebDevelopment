@@ -29,7 +29,7 @@ const omvormer = () => {
 const omvormerMetFunctie = (inputText) => {
   let result ="";
   for (let i = 0; i < inputText.length; i++) {
-    if(inputText.charAt(i) === " "){
+    if(inputText.charAt(i) === " " || i === inputText.length - 1){
       result += inputText.charAt(i);
     }
     else {
