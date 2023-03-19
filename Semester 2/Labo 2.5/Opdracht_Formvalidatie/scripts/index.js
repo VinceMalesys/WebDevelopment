@@ -155,9 +155,12 @@ const isGetal = (tekst) => {
     return !isNaN(tekst);
 }
 
-const proficiat = () =>{
-
-};
+//const proficiat = () =>{
+//    let errVoornaam = document.getElementById("errVoornaam");
+ //   let errFamilienaaam = document.getElementById("errVoornaam");
+  //  let errVoornaam = document.getElementById("errVoornaam");
+   // let errVoornaam = document.getElementById("errVoornaam");
+//};
 
 
 window.addEventListener("load", setup);
