@@ -155,12 +155,21 @@ const isGetal = (tekst) => {
     return !isNaN(tekst);
 }
 
-//const proficiat = () =>{
-//    let errVoornaam = document.getElementById("errVoornaam");
- //   let errFamilienaaam = document.getElementById("errVoornaam");
-  //  let errVoornaam = document.getElementById("errVoornaam");
-   // let errVoornaam = document.getElementById("errVoornaam");
-//};
+const proficiat = () =>{
+    let errVoornaam = document.getElementById("errVoornaam");
+    let errFamilienaaam = document.getElementById("errFamilienaam");
+    let errEmail = document.getElementById("errEmail");
+    let errGeboortedatum = document.getElementById("errGeboortedatum");
+    let errAtlKinderen = document.getElementById("errAtlKinderen");
+    if (errVoornaam.innerHTML === "" &&
+        errFamilienaaam.innerHTML === "" &&
+        errEmail.innerHTML === "" &&
+        errGeboortedatum.innerHTML === "" &&
+        errAtlKinderen.innerHTML === "")
+    {
+        window.prompt("proficiat")
+    }
+};
 
 
 window.addEventListener("load", setup);
