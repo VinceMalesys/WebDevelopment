@@ -87,7 +87,7 @@ const randomizen = (array) => {
 }
 
 const einde = () => {
-    let eindmelding = confirm("Successful Message!");
+    let eindmelding = confirm("Goed gespeeld! Druk \"ok\" voor nog eens");
     if (eindmelding === true){
         window.location.reload();
     }
