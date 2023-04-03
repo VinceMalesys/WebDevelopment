@@ -46,6 +46,7 @@ const toonFoto = (e) => {
     }
     else if (!global.eerste_kaart){
         element.style.backgroundImage = foto;
+        element.removeEventListener("click", toonFoto);
         if(global.huidigeFoto.style.backgroundImage !== foto){
             global.running = true;
             setTimeout(verbergFotos, 800, element);
@@ -65,6 +66,7 @@ const toonFoto = (e) => {
 
 const verbergFotos = (element) => {
     element.style.backgroundImage = "";
+    element.addEventListener("click", toonFoto);
     global.huidigeFoto.style.backgroundImage = "";
     global.huidigeFoto.addEventListener("click", toonFoto);
     global.eerste_kaart = true;
