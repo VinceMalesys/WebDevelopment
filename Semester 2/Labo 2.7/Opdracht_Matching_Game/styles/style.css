@@ -1,0 +1,19 @@
+#cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 800px;
+    width: 800px;
+}
+.card{
+    background-color: darkblue;
+    height: 200px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+.card:nth-of-type(4n-4){
+    margin-right: 0px;
+    background-size: cover;
+}
