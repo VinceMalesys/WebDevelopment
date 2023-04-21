@@ -1,0 +1,16 @@
+.errorMessage {
+	color:red;
+}
+
+input.invalid {
+	border : solid 1px red;
+}
+
+form label {
+	display : inline-block;
+	width : 6em;
+}
+
+#lstPersonen {
+	width:400px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Contact manager</title>
+	<link rel="stylesheet" href="styles/styles.css">
+</head> 
+
+<body> 
+	<div>
+		<select id="lstPersonen" size="10">
+		</select>
+		<input type="button" id="btnNieuw" value="Nieuw"/>
+	</div>
+	<form>
+		<div class="line">
+			<label for="txtVoornaam">Voornaam</label>
+			<input type="text" id="txtVoornaam" value=""/>
+			<span class="errorMessage" id="errVoornaam"></span>
+		</div>
+		<div class="line">
+			<label for="txtFamilienaam">Familienaam</label>
+			<input type="text" id="txtFamilienaam" value=""/>
+			<span class="errorMessage" id="errFamilienaam"></span>
+		</div>
+		<div class="line">
+			<label for="txtGeboorteDatum">Geboortedatum</label>
+			<input type="text" id="txtGeboorteDatum" value=""/>
+			<span class="errorMessage" id="errGeboorteDatum"></span>
+		</div>
+		<div class="line">
+			<label for="txtEmail">Email</label>
+			<input type="text" id="txtEmail" value=""/>
+			<span class="errorMessage" id="errEmail"></span>
+		</div>
+		<div class="line">
+			<label for="txtAantalKinderen">Aantal kinderen</label>
+			<input type="text" id="txtAantalKinderen" value=""/>
+			<span class="errorMessage" id="errAantalKinderen"></span>
+		</div>
+		<input type="button" id="btnBewaar" value="Bewaar"/>
+	</form>
+
+	<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+	<script type="text/javascript" charset="utf-8" src="scripts/validatie.js"></script>
+</body>
+</html> 
