@@ -1,0 +1,52 @@
+button {
+    color: inherit;
+    border-radius: 2px;
+    width: 40px;
+    height: 30px;
+}
+#btnYT1,#btnYT2,#btnTwitter{
+    background-color: black;
+    border: black;
+}
+#btnGgl1,#btnGgl2,#btnInsta{
+    background-color: orange;
+    border: orange;
+}
+section{
+    color: white;
+    padding-bottom: 10px;
+}
+.google{
+    background-color: dodgerblue;
+}
+.twitter{
+    background-color: deepskyblue;
+}
+.youtube{
+    background-color: red;
+}
+.insta{
+    background-color: purple;
+}
+#button{
+    color: white;
+    background-color: forestgreen;
+    border-radius: 2px;
+    height: 40px;
+}
+#input{
+    height: 40px;
+    font-size: x-large;
+    margin-top: 10px;
+}
+label{
+    font-weight: bold;
+    font-size: larger;
+}
+#info{
+    margin: 5px 0 15px 0 ;
+}
+body.container{
+    padding:0;
+
+}
