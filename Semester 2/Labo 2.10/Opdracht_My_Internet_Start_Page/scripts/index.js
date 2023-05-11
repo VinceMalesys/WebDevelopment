@@ -56,6 +56,7 @@ const controle = () => {
         alert("Invalid command")
     }
 
+
 }
 
 window.addEventListener('load', setup);
