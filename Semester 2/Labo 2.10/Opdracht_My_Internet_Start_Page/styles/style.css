@@ -4,11 +4,11 @@ button {
     width: 40px;
     height: 30px;
 }
-#btnYT1,#btnYT2,#btnTwitter{
+.btnType2{
     background-color: black;
     border: black;
 }
-#btnGgl1,#btnGgl2,#btnInsta{
+.btnType1{
     background-color: orange;
     border: orange;
 }
@@ -25,7 +25,7 @@ section{
 .youtube{
     background-color: red;
 }
-.insta{
+.instagram{
     background-color: purple;
 }
 #button{
