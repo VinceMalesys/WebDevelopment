@@ -1,0 +1,29 @@
+div > p:nth-of-type(odd){
+    background-color: grey;
+}
+div{
+    width: 300px;
+    border: 2px solid black;
+    margin-right: 0;
+}
+
+h2{
+    background-color: blue;
+    color: white;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+p{
+    margin: 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.tabel{
+    margin: 0;
+}
+
